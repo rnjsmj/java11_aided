@@ -1,8 +1,0 @@
-package org.kh.site;
-//증감연산
-public class Operation4 {
-	public static void main(String[] args) {
-		int a = 10;
-		int b = 10;
-	}
-}
