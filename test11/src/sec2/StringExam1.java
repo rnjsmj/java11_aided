@@ -46,6 +46,7 @@ public class StringExam1 {
 		System.out.println("모두 소문자 변환 : " + down);
 		String sub1 = data.substring(22,30);//공백 제거 후 20~30번째 추출 *
 		System.out.println("공백 제거 후 22~30번째 추출 : " + sub1);
+		System.out.println(data.charAt(22) + " " + data.charAt(29));
 		String sub2 = data.replace("newJeans", "Kep1er"); 		//newJeans의 단어를 Kepler로 변환
 		System.out.println("newJeans의 단어를 Kepler로 변환 : " + sub2);
 		byte[] girl = trimData.getBytes();		//문자열을 girl 문자배열로 변환하여 저장 *
@@ -55,18 +56,24 @@ public class StringExam1 {
 			System.out.print(k);
 		}
 		System.out.println();
+		byte[] girl2 = data.getBytes();		//문자열을 girl 문자배열로 변환하여 저장 *
+		for (byte b:girl) {
+			char k = (char) b;
+			System.out.print(k);
+		}
+		System.out.println();
 		
-		
-		//뒤에서부터 찾은 g부터 9글자 출력 (girlGroup)
-		String girlgroup = data.substring(data.lastIndexOf('g'), data.lastIndexOf('g')+9);
-		girlgroup = girlgroup + " " + sub1;
-		System.out.println("girlGroup : " + girlgroup);
-		
-		
-		//문자배열(byte[] girl)을 문자열(String)으로 변환
-		String str4 = new String(girl);
-		System.out.println("문자열 girl : " + str4);
-		
+//		
+//		//뒤에서부터 찾은 g부터 9글자 출력 (girlGroup)
+//		String girlgroup = data.substring(data.lastIndexOf('g'), data.lastIndexOf('g')+9);
+//		girlgroup = girlgroup + " " + sub1;
+//		System.out.println("girlGroup : " + girlgroup);
+//		
+//		
+//		//문자배열(byte[] girl)을 문자열(String)으로 변환
+//		String str4 = new String(girl);
+//		System.out.println("문자열 girl : " + str4);
+//		
 	}
 	
 
