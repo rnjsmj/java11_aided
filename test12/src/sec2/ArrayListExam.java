@@ -16,13 +16,15 @@ public class ArrayListExam {
 		Member mem = new Member(11, "kwon", "1234", "권민지", 0);
 		
 		memList.add(mem);
+		memList.set(3, mem);
 		
 		for (Member m : memList) { //순회 1
-			System.out.println(m.toString());
+			System.out.println("순회1 : " + m.toString());
 		}
-		for (int i=0; i<memList.size(); i++) { //순회2
-			System.out.println(memList.get(i));
-		}
+		/*
+		 * for (int i=0; i<memList.size(); i++) { //순회2
+		 * System.out.println(memList.get(i)); }
+		 */
 		
 		
 		memList.remove(3); //인덱스 3

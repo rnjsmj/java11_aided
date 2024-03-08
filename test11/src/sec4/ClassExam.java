@@ -17,6 +17,7 @@ public class ClassExam {
 		System.out.println("p3 클래스 : "+p3.getName());
 		
 		Person p4 = (Person) p3.newInstance(); //throws .... 구문 추가
+		System.out.println("p4 클래스 : "+p4);
 		System.out.println("p4 클래스 : "+p4.getName());
 		p4.setName("권민지");
 		p4.setAge(24);
