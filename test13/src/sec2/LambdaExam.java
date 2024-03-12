@@ -1,3 +1,4 @@
+
 package sec2;
 //람다식 : 함수 및 메서드를 간소화한 표현식
 //자바의 기본적인 람다식 정의 방법 => 함수적 인터페이스 (Functional Interface)

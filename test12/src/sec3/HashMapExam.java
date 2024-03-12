@@ -50,6 +50,8 @@ public class HashMapExam {
 			fruits.put(8, "키위");
 		}
 		
+		System.out.println(fruits.size());
+		
 		
 	}
 }
