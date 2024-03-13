@@ -31,12 +31,13 @@ public class Test1 {
 			//1) ipInfoList.get(i)는 i번째의 IPInfo 클래스의 객체이고,
 			//   ip는 String 변수이므로 비교할 수 없음
 			// => ipInfoList.get(i).getIp()를 사용하여 같은 String 타입끼리 동일한지 비교해야 함
-			//2) ArrayList는 참조형이므로 '==' 연산자를 사용하면 갖고있는 주소값을 비교하게 되어 
+			//2)  '==' 연산자를 사용하면 갖고있는 주소값을 비교하게 되어 
 			//   갖고있는 String 값이 같은지 확인할 수 없음
 			// => ipInfoList.get(i).getIp().equals(ip)로 조건을 수정하여
 			//    갖고있는 값이 같은지 비교
 			if(ipInfoList.get(i).getIp().equals(ip)) {
 				//System.out.println(ipInfoList.get(i));
+
 				System.out.println(ipInfoList.get(i));
 				break;
 			}

@@ -56,7 +56,7 @@ public class OracleExam {
 		
 		OracleDB oracle1 = new OracleDB();
 		con = oracle1.connect(); //Connection -> Oracle 연결
-		String sql = "select * from tmp1"; //java => sql문에 ; 없음
+		String sql = "select * from student"; //java => sql문에 ; 없음
 		pstmt = con.prepareStatement(sql); //전원 on
 		rs = pstmt.executeQuery(); //sql문 실행
 		

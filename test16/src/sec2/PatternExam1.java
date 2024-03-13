@@ -20,8 +20,10 @@ public class PatternExam1 {
 		//Pattern p = Pattern.compile("[0-9]*"); //모든 값이 숫자 (== ^[0-9]*)
 		for (int i = 0; i < dt.length; i++) {
 			Matcher m = p.matcher(dt[i]);
+			System.out.println(m.matches());
 			if(m.matches()) {
 				System.out.println("형식 일치 : " + dt[i]);
+				
 			}
 		}
 	}
