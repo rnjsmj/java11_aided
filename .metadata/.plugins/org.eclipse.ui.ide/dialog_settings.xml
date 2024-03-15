@@ -13,6 +13,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\minji\java2\class_exam\class_exam"/>
+			<item value="D:\minji\java2\class_exam"/>
 			<item value="D:\minji\java2\test12"/>
 			<item value="D:\minji\java2\test11"/>
 			<item value="D:\minji\java2\test13"/>

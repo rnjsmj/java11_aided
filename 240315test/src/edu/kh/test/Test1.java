@@ -44,7 +44,7 @@ public class Test1 {
 			//+
 			else {
 				System.out.println("일치하는 ip 사용자가 없습니다.");
-				break;
+				
 			}
 		}
 		
